@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+:root {
+  --inter: "Inter", "sans-serif";
+  --primaryGreen: oklch(0.86 0.238874 149.8084);
+  --background: oklch(0.24 0 0);
+}
+
+@theme {
+  --font-inter: var(--inter);
+
+  --color-primaryGreen: var(--primaryGreen);
+  --color-background: var(--background);
+}
+
+body {
+  background-color: var(--background);
+}
