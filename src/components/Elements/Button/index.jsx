@@ -1,8 +1,11 @@
-export default function Button(props) {
-    const { type = "button", id, children, variantButton, onClick = () => { } } = props
+import React from "react"
+
+const Button = React.forwardRef((props, ref) => {
     return (
-        <button type={type} id={id} onClick={onClick} className={variantButton}>
-            {children}
+        <button ref={ref} {...props} >
+            {props.children}
         </button >
     )
-}
+})
+
+export default Button

@@ -57,9 +57,9 @@ export default function Navbar() {
                     </div>
                     <div className="block md:hidden">
                         {
-                            navIsOpen ? <Button variantButton="text-white text-xl cursor-pointer hover:text-primaryGreen duration-500" onClick={handleOpenNavbar}>
+                            navIsOpen ? <Button className="text-white text-xl cursor-pointer hover:text-primaryGreen duration-500" onClick={handleOpenNavbar}>
                                 <BsXLg />
-                            </Button> : <Button variantButton="text-white text-xl cursor-pointer hover:text-primaryGreen duration-500" onClick={handleOpenNavbar}>
+                            </Button> : <Button className="text-white text-xl cursor-pointer hover:text-primaryGreen duration-500" onClick={handleOpenNavbar}>
                                 <BsList />
                             </Button>
                         }
