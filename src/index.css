@@ -9,11 +9,11 @@
 
 @theme {
   --font-inter: var(--inter);
-
   --color-primaryGreen: var(--primaryGreen);
   --color-background: var(--background);
 }
 
 body {
   background-color: var(--background);
+  font-family: var(--inter);
 }
