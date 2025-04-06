@@ -32,7 +32,7 @@ const navMenus = [
     },
 ]
 
-export default function Navbar() {
+const Navbar = () => {
     const [navIsOpen, setNavIsOpen] = useState(false)
 
     const handleOpenNavbar = () => {
@@ -69,4 +69,6 @@ export default function Navbar() {
             <ResponsiveNavbar navIsOpen={navIsOpen} />
         </header>
     )
-}       
+}
+
+export default Navbar

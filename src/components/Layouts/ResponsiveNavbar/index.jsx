@@ -27,7 +27,7 @@ const navMenus = [
     },
 ]
 
-export default function ResponsiveNavbar(props) {
+const ResponsiveNavbar = (props) => {
     const { navIsOpen } = props
     return (
         <nav className={`fixed left-0 flex flex-col mt-14 bg-background px-[7%] w-full ${navIsOpen ? "max-h-[400px]" : "max-h-0"}  shadow-md transition-max-height duration-500 overflow-y-hidden z-50
@@ -43,3 +43,5 @@ export default function ResponsiveNavbar(props) {
         </nav>
     )
 }
+
+export default ResponsiveNavbar
