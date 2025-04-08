@@ -79,14 +79,14 @@ const Home = () => {
                     </div>
                     <div className="relative flex justify-center items-center">
                         <motion.img
-                            initial={{ opacity: 0, scale: 0 }}
-                            animate={{ opacity: 1, scale: 1 }}
+                            initial={{ opacity: 0, y: -20 }}
+                            animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 1, delay: 1, ease: "easeOut" }}
                             src="/blob1.svg" alt="" className="absolute -top-16 left-1/2 -translate-x-1/2 w-80 -z-10  md:-top-14 md:w-[25rem]" />
                         <div className="relative">
                             <motion.img
-                                initial={{ opacity: 0, scale: 0 }}
-                                animate={{ opacity: 1, scale: 1 }}
+                                initial={{ opacity: 0, y: 20 }}
+                                animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 1, delay: 1.5, ease: "easeOut" }}
                                 src="/naufal-image.png" alt="" className="w-[20rem] md:w-[25rem] lg:w-[28rem]" />
                             <div className="absolute bottom-0 left-0 w-full h-32 bg-linear-to-b from-transparent to-background"></div>
