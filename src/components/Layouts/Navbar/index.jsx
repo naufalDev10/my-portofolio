@@ -38,7 +38,7 @@ const Navbar = () => {
     return (
         <header>
             <nav className="flex justify-center items-center fixed top-0 left-0 w-full bg-background z-50">
-                <div className="flex justify-between items-center w-full max-w-[1440px] py-5 px-[7%]">
+                <div className="flex justify-between items-center w-full max-w-[1440px] py-5 px-[7%] 2xl:px-[4%]">
                     <div className="">
                         <Link to="" className="text-xl font-semibold text-primaryGreen">Naufal.</Link>
                     </div>
