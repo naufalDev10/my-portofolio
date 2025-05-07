@@ -27,7 +27,7 @@ const HeroText = ({ children }) => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 1.5 }}
                 className="text-white text-center md:text-left md:my-1 lg:text-md">Saya adalah seorang mahasiswa jurusan S1 Informatika yang memiliki ketertarikan dibidang full-stack developer dan teknologi.</motion.p>
-            <a
+            <motion.a
                 initial={{ opacity: 0, y: 25 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 2 }}
@@ -35,7 +35,7 @@ const HeroText = ({ children }) => {
                 download="Naufal_CV.pdf"
                 className="flex justify-center items-center font-semibold mt-4 mx-auto w-36 h-9 bg-primaryGreen px-3 rounded-sm cursor-pointer md:mx-0">
                 Download CV
-            </a>
+            </motion.a>
             {children}
         </div>
     );
