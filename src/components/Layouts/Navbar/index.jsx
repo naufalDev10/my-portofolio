@@ -40,7 +40,7 @@ const Navbar = () => {
             <nav className="flex justify-center items-center fixed top-0 left-0 w-full bg-background z-50">
                 <div className="flex justify-between items-center w-full max-w-[1440px] py-5 px-[7%] 2xl:px-[4%]">
                     <div className="">
-                        <Link to="" className="text-xl font-semibold text-primaryGreen">Naufal.</Link>
+                        <Link to="" className="text-xl font-semibold text-white">Naufal <span className="text-primaryGreen">Ahmad</span>.</Link>
                     </div>
                     <div className="hidden md:flex md:justify-center md:items-center md:gap-8">
                         {
