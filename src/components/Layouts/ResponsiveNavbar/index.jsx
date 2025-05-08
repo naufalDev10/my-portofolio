@@ -2,28 +2,24 @@ import { NavLink } from "react-router-dom";
 
 const navMenus = [
     {
-        menu: "Home",
+        menu: "Beranda",
         url: "/"
     },
     {
-        menu: "About",
-        url: "/about"
+        menu: "Tentang",
+        url: "/tentang"
     },
     {
-        menu: "Skils",
-        url: "/skils"
+        menu: "Keahlian",
+        url: "/keahlian"
     },
     {
-        menu: "Projects",
-        url: "/projects"
+        menu: "Portofolio",
+        url: "/portofolio"
     },
     {
-        menu: "Services",
-        url: "/services"
-    },
-    {
-        menu: "Contact",
-        url: "/contact"
+        menu: "Kontak",
+        url: "/kontak"
     },
 ]
 
